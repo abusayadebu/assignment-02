@@ -2,8 +2,110 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
  *{
-    margin: 0;
-    padding: 0;
     font-family: "Inter", sans-serif;
     background-color: #111111;
  }
+
+ .text-color{
+    color: #FFFFFF;
+ }
+
+ /* nav style is here */
+ .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+.logoname{
+    width: 20%;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    color: #E6533C;
+}
+
+ .menus ul{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+.button-one{
+    padding: 8px 20px 8px 20px;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ .menus>ul>li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ /* banner style is here */
+ .banner-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .left-side-container{
+    width: 50%;
+ }
+
+ .left-side-container h1{
+    font-size: 70px;
+    font-weight: 900;
+ }
+
+ .span-one{
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    font-family: "Great Vibes", cursive;
+ }
+
+ .left-side-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+ }
+ 
+ .btn-2{
+    padding: 16px 40px 16px 40px;
+    background-color:#E6533C;
+    border: none;
+    border-radius: 42px;
+    margin-right: 20px;
+ }
+
+ .btn-3{
+    padding: 16px 40px 16px 40px;
+    background-color: none;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+
+ }
+ .right-side-container{
+    width: 30%;
+    height: 580px;
+    background-image: url("../images/Images-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ /* media query */
+
+
+
+ 
