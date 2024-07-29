@@ -108,4 +108,47 @@
 
 
 
- 
+ /* habit section starts here */
+ .habit-container{
+    margin-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .habit-contents{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .habit-contents h2{
+    font-size: 45px;
+    font-weight: 800;
+ }
+
+ .habit-contents p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+ }
+
+ .cards{
+    display: flex;
+    gap: 30px;
+ }
+
+ .card img{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+ }
+ .card h5{
+    font-size: 18px;
+    font-weight: 600;
+ }
+
+ .card p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+ }
