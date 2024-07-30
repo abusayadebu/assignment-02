@@ -286,3 +286,96 @@
    width: 69%;
  }
 
+ /* media query responsive of BMI calculator section */
+ @media screen {
+   
+ }
+
+
+ /* Our Team section style is here */
+ .our-team-container{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 100px;
+ }
+
+ .our-team-container h2{
+   font-size: 48px;
+   font-weight: 900;
+}
+
+.our-team-container p{
+   font-size: 14px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 0.5);
+   margin-bottom: 50px;
+}
+
+ .team-images{
+   display: grid;
+   gap: 40px;
+   grid-template-columns: repeat(3,30%);
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 20px;
+   padding: 20px;
+ }
+ .team-images img{
+   width: 300px;
+   border-radius: 20px;
+ }
+
+/* responsive media query for our team section */
+@media screen {
+   
+}
+
+
+
+/* footer section style is here */
+
+.footer-main{
+   width: 100%;
+   margin: 0 auto;
+   border: 0.1px solid white;
+   margin-top: 100px;
+}
+.footer{
+   width: 80%;
+   margin: 0 auto;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.div-1{
+   width: 40%;
+   margin-right: 50px;
+}
+
+.div-1{
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.div-2, .div-3{
+   width: 30%;
+}
+
+.div-2>h2, .div-3>h2{
+   font-size: 30px;
+   font-weight: 700;
+}
+.div-2>p, .div-3>p{
+   font-size: 18px;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+/* responsive media query */
+@media screen {
+   
+}
