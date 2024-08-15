@@ -433,20 +433,27 @@
 }
 .parent-carts{
    display: flex;
-   justify-content: space-evenly;
+   justify-content: center;
    align-items: center;
-   gap: 20px;
+   gap: 25px;
 }
 .cart{
    border: 1px solid rgba(255, 255, 255, 0.5);
    padding: 50px 70px;
    text-align: center;
-   border-radius: 20PX;
+   border-radius: 15px;
+}
+#bold-cart{
+   background-color: rgba(255, 255, 255, 0.1);
+}
+.cart:hover{
+   background-color: rgba(255, 255, 255, 0.1);
 }
 .cart h2{
    font-size: 55px;
    color: #E6533C;
 }
+
 .cart h3{
    font-size: 25px;
 }
@@ -459,6 +466,20 @@
 }
 .cart h2, h3, h4, p{
    background: none;
+}
+
+/* unique section responsive media query here*/
+@media only screen and (max-width: 576px) {
+   .parent-carts{
+      flex-direction: column;
+   }
+   .cart{
+      padding: 25px 35px;
+      height: 80%;
+   }
+   .section-contents h2{
+      font-size: 30px;
+   }
 }
 
 
