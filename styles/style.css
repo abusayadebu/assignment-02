@@ -329,6 +329,7 @@
    justify-content: center;
    align-items: center;
    background-color:rgb(34, 34, 34);
+   margin-bottom: 100px;
 }
 
 .left-side-bmi h3{
@@ -413,6 +414,52 @@
       width: 100%;
    }
  }
+
+ /* unique section style starts here */
+.unique-section-container{
+   width: 80%;
+   margin: 0 auto;
+}
+.section-contents{
+   text-align: center;
+}
+.section-contents h2{
+   font-size: 48px;
+   font-weight: 900;
+}
+.section-contents p{
+   font-size: 30px;
+   color: rgba(255, 255, 255, 0.5)
+}
+.parent-carts{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 20px;
+}
+.cart{
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   padding: 50px 70px;
+   text-align: center;
+   border-radius: 20PX;
+}
+.cart h2{
+   font-size: 55px;
+   color: #E6533C;
+}
+.cart h3{
+   font-size: 25px;
+}
+.cart h4{
+   font-size: 20px;
+}
+.cart p{
+   font-size: 18px;
+   color: rgba(255, 255, 255, 0.5) ;
+}
+.cart h2, h3, h4, p{
+   background: none;
+}
 
 
  /* Our Team section style is here */
